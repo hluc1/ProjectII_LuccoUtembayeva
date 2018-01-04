@@ -1,13 +1,18 @@
+body {
+    background-color: black;
+}
 #container { 
     margin-right: auto;
     margin-left: auto;
-    width: 98%;
+    width: 97.75%;
+    background-color: black;
 }
 #waterContainer {
     float: left;
+    padding: 0px;
 }
 #earthContainer {
-    float: left;
+    float: left; 
 }
 
 #fireContainer {
