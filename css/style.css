@@ -1,0 +1,22 @@
+#container { 
+    margin-right: auto;
+    margin-left: auto;
+    width: 98%;
+}
+#waterContainer {
+    float: left;
+}
+#earthContainer {
+    float: left;
+}
+
+#fireContainer {
+    float: left;
+}
+#airContainer {
+    float: left;    
+}
+.homePageImage {
+    width: 650px;
+    height: 450px;
+}
