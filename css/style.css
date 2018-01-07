@@ -1,84 +1,104 @@
-body {
-    background-color: black;
-    font-family: 'Raleway', sans-serif;    
+#body1{
+    background-color: rgb(150, 30, 30);     
+        font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+        color: #fff;
+        text-shadow: 4px 4px 3px rgba(0,0,0,0.1);      
+
 }
-#container { 
-    margin-right: auto;
-    margin-left: auto;
-    width: 97.75%;
-    background-color: black;
+#body2{
+    background-color: rgb(206, 206, 248);
+    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
-#waterContainer {
-    float: left;
-    padding: 0px;
-}
-#earthContainer {
-    float: left; 
+#body3{
+    background-color: rgb(190, 227, 243);
+    font: 400 30px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
 }
 
-#fireContainer {
-    float: left;
-}
-#airContainer {
-    float: left;    
-}
-.homePageImage {
-    width: 650px;
-    height: 450px;
-}
-#welcomeDiv {
-    color: white;
+#jumbotron1{
+    background-image: url("images/fireback.jpg");
+    height: 210px; 
+    color: ghostwhite;
+    text-align:center;   
+    
+    }
+    #jumbotron2{
+        background-image: url("images/waterback1.jpg");
+        height: 185px; 
+        color: ghostwhite;
+        text-align:center;   
+        
+        }  
+        #jumbotron3{
+            background-image: url("images/airback.jpg");
+            height: 185px; 
+            color: ghostwhite;
+            text-align:center;   
+            
+            }  
+        
+.container{
     text-align: center;
-    position: fixed;
-    bottom: 250px;
-    right: 200px;
-    left: 200px;
-    border: solid 3px black;
-    background-color: black;
-    opacity: 1;
-    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
-.button {
-    background-color: black;
-    color: white;
+#button1{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
     text-align: center;
-    border: 0px;
-    text-decoration: underline;
-}
-.footer {
+    color:rgb(83, 16, 16);
+    background-color: rgb(83, 16, 16);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button1:hover {background-color: rgb(83, 16, 16);}
+  
+  #button1:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
+  #button2{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
     text-align: center;
-}
-.footerText {
-    color: white;
-}
-#aboutContainer {
-    background-color: white;
-    width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-    border-radius: 25px;
-}
-#aboutHeader {
-    color: black;
+    color:rgb(30, 35, 82);
+    background-color: rgb(30, 35, 82);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button2:hover {background-color: rgb(30, 35, 82);}
+  
+  #button2:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
+  #button3{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
     text-align: center;
-}
-#aboutHeaderContainer {
-    color: black;
-    text-align: center;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-}
-.aboutText {
-    text-align: left;
-}
-#aboutImageContainer {
-    width: 750px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.images {
-    border-radius: 25px;
-}
+    color:rgb(71, 81, 172);
+    background-color: rgb(71, 81, 172);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button3:hover {background-color: rgb(71, 81, 172);}
+  
+  #button3:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
