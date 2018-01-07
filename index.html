@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Avatar</title>
+        <title>Avatar: Learn to Bend!</title>
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="css/style.css">
+        <!-- Favicon -->
+        <link rel="icon" href="images/arrowI.jpg" type="image/gif" sizes="16x16">
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Custom Scripts -->
+        <script src="js/scripts.js"></script>
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
     <body>
+        <div id="welcomeDiv">
+            <h1 class="welcomeDivText">Get ready to learn to Bend!</h1>
+            <p class="welcomeDivText">Click on an element to learn about it's martial arts style!</p>
+        </div>
         <div id="container">
             <div id="waterContainer">
                 <a href="water.html"><img class="homePageImage" src="images/water.jpg" alt="waterButton"></a>
@@ -19,6 +32,9 @@
                 <a href="air.html"><img class="homePageImage" src="images/air.jpg" alt="airButton"></a>
             </div>
             <div style="clear: both;"></div>
+            <footer class="footer">
+                <p class="footerText"> &copy; Lucco and Utembayeva 2018 | <button onclick="javascript:history.go(0)" class="button">Help</button><button class="button"><a class="button" href="about.html">About</a></button></p>
+            </footer>
         </div>
     </body>
 </html>

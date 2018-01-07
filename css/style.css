@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: 'Raleway', sans-serif;    
 }
 #container { 
     margin-right: auto;
@@ -24,4 +25,60 @@ body {
 .homePageImage {
     width: 650px;
     height: 450px;
+}
+#welcomeDiv {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 250px;
+    right: 200px;
+    left: 200px;
+    border: solid 3px black;
+    background-color: black;
+    opacity: 1;
+    border-radius: 15px;
+}
+.button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 0px;
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+}
+.footerText {
+    color: white;
+}
+#aboutContainer {
+    background-color: white;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+#aboutHeader {
+    color: black;
+    text-align: center;
+}
+#aboutHeaderContainer {
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+.aboutText {
+    text-align: left;
+}
+#aboutImageContainer {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.images {
+    border-radius: 25px;
 }
