@@ -82,3 +82,17 @@ body {
 .images {
     border-radius: 25px;
 }
+#aboutReturn {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+.buttonII {
+    background-color: white;
+    border: solid 5px white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 5px;
+}
