@@ -1,0 +1,109 @@
+#jumbotron1{
+    background-image: url("images/fireback.jpg");
+    height: 210px; 
+    color: ghostwhite;
+    text-align:center;   
+    
+    }
+    #jumbotron2{
+        background-image: url("images/waterback1.jpg");
+        height: 180px; 
+        color: ghostwhite;
+        text-align:center;   
+        
+        }  
+    #jumbotron3{
+            background-image: url("images/airback1.jpg");
+            height: 185px; 
+            color: ghostwhite;
+            text-align:center;   
+            
+            }  
+    #jumbotron4{
+              background-image: url("images/earthback.jpg");
+              height: 185px; 
+              color: ghostwhite;
+              text-align:center;   
+              
+              }      
+.container{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#button1{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(83, 16, 16);
+    background-color: rgb(83, 16, 16);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button1:hover {background-color: rgb(83, 16, 16);}
+  
+  #button1:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
+  #button2{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(30, 35, 82);
+    background-color: rgb(30, 35, 82);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button2:hover {background-color: rgb(30, 35, 82);}
+  
+  #button2:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
+  #button3{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(71, 81, 172);
+    background-color: rgb(71, 81, 172);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button3:hover {background-color: rgb(71, 81, 172);}
+  
+  #button3:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
+  #button4{
+    display: inline-block;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    color:rgb(7, 71, 36);
+    background-color: rgb(7, 71, 36);   
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #555;
+  }
+  
+  #button4:hover {background-color: rgb(7, 71, 36);}
+  
+  #button4:active {
+    box-shadow: 0 5px #555;
+    transform: translateY(7px);
+  }
